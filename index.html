@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>goodbye, my favorite person</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    height: 100%;
+    background-color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .screen {
+    min-height: 100vh;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .lyrics {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    padding: 0 24px;
+    max-width: 700px;
+  }
+
+  .lyrics p {
+    margin-bottom: 28px;
+  }
+
+  .meta {
+    color: #8a8a8a;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 0 24px;
+  }
+
+  .play-btn {
+    border: 1.5px solid #ffffff;
+    color: #ffffff;
+    background: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    letter-spacing: 4px;
+    padding: 14px 36px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  .play-btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  @media (max-width: 480px) {
+    .lyrics {
+      font-size: 22px;
+    }
+    .meta {
+      font-size: 13px;
+    }
+  }
+  span{
+    color: #ffffff;
+  }
+</style>
+</head>
+<body>
+
+  <div class="screen">
+    <div class="lyrics">
+      <p>Aku rela menunggu beribu-ribu waktu untukmu</p>
+      <p>Namun, kamu meninggalkan-ku di waktu yang sudah dinantikan itu</p>
+    </div>
+
+    <div class="meta">
+      Thanks, and see you my favorite person | sabtu, 30 Juni 2026 :) <br> <br>
+      <span>By: galauuwin_</span>
+    </div>
+
+    <button class="play-btn" onclick="alert('Play ditekan')">PLAY</button>
+    
+  </div>
+
+</body>
+</html>
